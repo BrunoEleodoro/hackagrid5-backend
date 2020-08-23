@@ -1,0 +1,15 @@
+{
+    /* Users permitidos no sistema */
+    "User_1": {
+        "Name": "José da Silva Xavier",
+        "SchemeName": "BR.CPF",
+        "Identification": "12345678904",
+        "Email": "josesilva@gmail.com"
+    },
+    "User_2": {
+        "Name": "Vera da Costa",
+        "SchemeName": "BR.CPF",
+        "Identification": "01248001003",
+        "Email": "veracosta@gmail.com"
+    }
+}

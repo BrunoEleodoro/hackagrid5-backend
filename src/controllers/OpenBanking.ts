@@ -10,7 +10,7 @@ export class OpenBanking {
             const data = await openBanking.CreateAccountAccessConsent(req.body)
             return res.json(data)
         } catch (error) {
-            return res.json({error})
+            return res.status(500).json({error})
         }
     }
     async indexAccounts(req: Request, res: Response) {
@@ -18,7 +18,7 @@ export class OpenBanking {
             const data = await openBanking.GetAccounts()
             return res.json(data)
         } catch (error) {
-            return res.json({error})
+            return res.status(500).json({error})
         }
     }
 }
