@@ -40,13 +40,14 @@ No grupo dos MEI, o registro dos dados de gastos e das receitas que são realiza
 
 ## :seedling: Requisitos Mínimos
 
-NodeJS
+- NodeJS
+- Flutter
 
 ## :rocket: Tecnologias Utilizadas 
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- GR1D
+- GR1D APIs
 - NodeJS
 - Flutter
 
