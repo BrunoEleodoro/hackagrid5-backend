@@ -13,8 +13,9 @@ services:
         networks:
             - grid-network
         environment:
-            - MONGO_INITDB_ROOT_USERNAME=databaseuser
-            - MONGO_INITDB_ROOT_PASSWORD=2eacbc3f19b759e2244009692efdf9c5
+            - MONGODB_USERNAME=databaseuser
+            - MONGODB_PASSWORD=2eacbc3f19b759e2244009692efdf9c5
+            - MONGODB_DATABASE=grid-database
 
     grid-api:
         container_name: grid-api
