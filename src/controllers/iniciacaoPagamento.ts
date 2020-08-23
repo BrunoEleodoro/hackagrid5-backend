@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import iniciacaoPagamento from '../utils/iniciacaoPagamento'
-
+// new file
 import { User } from '../database/models/User'
 
 export class IniciacaoPagamento {
