@@ -5,7 +5,7 @@ services:
         image: mongo
         restart: always
         container_name: grid-database
-        command: mongod --port 27018
+        command: mongod --port 27018 --authenticationDatabase admin
         ports:
             - 127.0.0.1:27018:27018
         volumes:
