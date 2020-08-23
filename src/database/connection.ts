@@ -6,10 +6,10 @@ const connection = async function () {
     console.log('mongoUrl', mongoUrl)
     try {
         await mongoose.connect(mongoUrl, {
-            // useNewUrlParser: true,
-            // useUnifiedTopology: true,
-            // useCreateIndex: true,
-            // useFindAndModify: false,
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true,
+            useFindAndModify: false,
         })
         console.log('MongoDB started')
     } catch (err) {
