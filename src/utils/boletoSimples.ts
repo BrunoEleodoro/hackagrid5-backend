@@ -20,7 +20,7 @@ const api = axios.create({
 api.defaults.headers['X-Api-Key'] = process.env.BOLETO_SIMPLES_API_KEY
 api.defaults.headers['User-Agent'] = 'myapp@gmail.com'
 
-const OpenBanking = {
+const boletoSimples = {
     /* API doenst't work */
     async CreateBankBillet(data: iCreateBankBillet) {
         console.log(process.env.BOLETO_SIMPLES_API_KEY)
@@ -47,4 +47,4 @@ const OpenBanking = {
     }
 }
 
-export default OpenBanking
+export default boletoSimples
