@@ -13,8 +13,9 @@ services:
         networks:
             - grid-network
         environment:
-            - MONGO_INITDB_ROOT_USERNAME=bruno
-            - MONGO_INITDB_ROOT_PASSWORD=2ea45455433f19b7vvb9e24009692efdf9c5
+            - MONGO_INITDB_ROOT_USERNAME=databaseuser
+            - MONGO_INITDB_ROOT_PASSWORD=2eacbc3f19b759e2244009692efdf9c5
+            - MONGO_INITDB_ROOT_DATABASE=grid-database
 
     grid-api:
         container_name: grid-api
@@ -30,7 +31,7 @@ services:
             - grid-network
         environment:
             - PROD=true
-            - MONGODB=mongodb://bruno:2ea45455433f19b7vvb9e24009692efdf9c5@grid-database:27018/grid-database?authSource=admin
+            - MONGODB=mongodb://databaseuser:2eacbc3f19b759e2244009692efdf9c5@grid-database:27018/grid-database?authSource=admin&w=1
             
 networks:
     grid-network:
