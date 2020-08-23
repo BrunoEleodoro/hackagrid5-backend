@@ -30,7 +30,7 @@ services:
             - grid-network
         environment:
             - PROD=true
-            - MONGODB=mongodb://databaseuser:2eacbc3f19b759e2244009692efdf9c5@grid-database:27018/grid-database?authSource=grid-database&w=1
+            - MONGODB=mongodb://databaseuser:2eacbc3f19b759e2244009692efdf9c5@grid-database:27018/grid-database?authSource=admin&w=1
             
 networks:
     grid-network:
