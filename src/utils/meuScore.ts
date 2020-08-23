@@ -1,7 +1,5 @@
 import axios from 'axios'
 import 'dotenv/config'
-import { customer_zipcode } from '../constants'
-
 
 const api = axios.create({
     baseURL: 'HTTPS://gateway.gr1d.io/production/proScore/score/v1',
