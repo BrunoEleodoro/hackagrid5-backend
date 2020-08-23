@@ -28,10 +28,10 @@ export class IniciacaoPagamento {
             }
 
             const paymentCredentials = {
-                DebtorAccount: {
-                    Identification: DebtorUser.Identification,
-                    Name: DebtorUser.Name,
-                    SchemeName: DebtorUser.SchemeName
+                CreditorAccount: {
+                    Identification: CreditorUser.Identification,
+                    Name: CreditorUser.Name,
+                    SchemeName: CreditorUser.SchemeName
                 },
                 Amount: amount,
                 Currency: currency,
@@ -42,10 +42,10 @@ export class IniciacaoPagamento {
             })
 
             const data = await iniciacaoPagamento.CreatePayment({
-                CreditorAccount: {
-                    Identification: CreditorUser.Identification,
-                    Name: CreditorUser.Name,
-                    SchemeName: CreditorUser.SchemeName
+                DebtorAccount: {
+                    Identification: DebtorUser.Identification,
+                    Name: DebtorUser.Name,
+                    SchemeName: DebtorUser.SchemeName
                 },
                 ...paymentCredentials,
                 ConsentId

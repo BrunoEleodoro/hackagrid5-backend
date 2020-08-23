@@ -3,7 +3,7 @@ import 'dotenv/config'
 import { EndToEndIdentification, InstructionIdentification } from '../constants'
 
 interface iAccountConsent {
-    DebtorAccount: {
+    CreditorAccount: {
         SchemeName: string,
         Identification: string,
         Name: string
@@ -14,7 +14,7 @@ interface iAccountConsent {
 
 interface iAccountPayment extends iAccountConsent {
     ConsentId: string,
-    CreditorAccount: {
+    DebtorAccount: {
         SchemeName: string,
         Identification: string,
         Name: string
@@ -38,7 +38,7 @@ const IniciacaoPagamento = {
                         Amount: data.Amount,
                         Currency: data.Currency || 'BRL'
                     },
-                    DebtorAccount: data.DebtorAccount
+                    CreditorAccount: data.CreditorAccount
                 }
             },
             Risk: {}
