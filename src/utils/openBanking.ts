@@ -12,6 +12,9 @@ const api = axios.create({
     baseURL: 'https://gateway.gr1d.io/sandbox/tecban/contas/v1',
 })
 
+if (!process.env.ACCOUNT_API_KEY) {
+    throw new Error('MISSING API KEY')   
+}
 api.defaults.headers['X-Api-Key'] = process.env.ACCOUNT_API_KEY
 
 const OpenBanking = {

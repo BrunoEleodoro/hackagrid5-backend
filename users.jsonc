@@ -4,12 +4,16 @@
         "Name": "José da Silva Xavier",
         "SchemeName": "BR.CPF",
         "Identification": "12345678904",
+        "CPF": "090.447.738-01",
+        "Nascimento": "15/01/1950",
         "Email": "josesilva@gmail.com"
     },
     "User_2": {
         "Name": "Vera da Costa",
         "SchemeName": "BR.CPF",
         "Identification": "01248001003",
+        "CPF": "596.670.096-61",
+        "Nascimento": "12/01/1963",
         "Email": "veracosta@gmail.com"
     }
 }

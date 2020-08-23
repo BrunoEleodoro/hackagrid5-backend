@@ -8,14 +8,16 @@ export class User {
             Name: req.body.Name,
             Identification: req.body.Identification,
             SchemeName: req.body.SchemeName,
-            Email: req.body.Email
+            Email: req.body.Email,
+            CPF: req.body.CPF,
+            Nascimento: req.body.Nascimento
         })
         const Token = `b91daw97g-e7dbawbd0bg_${user._id}`
         return res.status(201).json(Token)
     }
 
     async login(req: Request, res: Response) {
-        const { Email, Password } = req.body
+        const { CPF, Password } = req.body
         try {
             if (Password !== '123456') {
                 return res.status(403).json({
@@ -23,11 +25,11 @@ export class User {
                     message: 'Incorrect password!'
                 })
             }
-            const user = await UserDB.findOne({ Email: Email })
+            const user = await UserDB.findOne({ CPF: CPF })
             if (!user) {
                 return res.status(404).json({
                     http_status: 404,
-                    message: 'Invalid email!'
+                    message: 'Invalid CPF!'
                 })
             }
 
