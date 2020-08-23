@@ -27,10 +27,10 @@ ___
 
 ## :information_source: Sobre
 
-Plataforma Web PWA – É um site que se comporta como um aplicativo quando acessado em um smartphone, evitando ocupar espaço no smartphone do usuário.
-Utilização das APIs de Open Banking da Gr1d, Meu Score, Boleto Simples e Iniciação Pagamento que utilizam a tecnologia de Open Banking desenvolvida pela TecBan para permitir acesso a conta do usuário e facilitar as funções de pagamento e recebimento através de boletos, tranferências, pagamentos instantâneos – PIX. Também é possível inserir informações de pagamentos em dinheiro vivo por um formulário simples.
-Geração de relatórios de fluxo de caixa em PDF contendo as entradas e saída detalhadas daquele dia e informando se houve prejuízo ou lucro, estes liberados no fim do dia para o usuário armazenar onde desejar ou imprimir, possibilitando maior controle e ainda geram pontos que acumulam no SCORE que fica acessível as instituições financeiras que podem oferecer produtos como empréstimo, seguros e previdência, dessa forma incentivando o uso da ferramenta para o controle do fluxo de caixa do MEI.
-Solução disponível em três planos: Basic – Gratuíto, Premium - Pago - Acesso ao nosso E-Learning através de nosso chatbot e Deluxe - Pago - Que além de ter todas as outras funções ainda dá acesso a nossa ferrmanta de contabilidade.
+- Plataforma Web PWA – É um site que se comporta como um aplicativo quando acessado em um smartphone, evitando ocupar espaço no smartphone do usuário.
+- Utilização das APIs de Open Banking da Gr1d, Meu Score, Boleto Simples e Iniciação Pagamento que utilizam a tecnologia de Open Banking desenvolvida pela TecBan para permitir acesso a conta do usuário e facilitar as funções de pagamento e recebimento através de boletos, tranferências, pagamentos instantâneos – PIX. Também é possível inserir informações de pagamentos em dinheiro vivo por um formulário simples.
+- Geração de relatórios de fluxo de caixa em PDF contendo as entradas e saída detalhadas daquele dia e informando se houve prejuízo ou lucro, estes liberados no fim do dia para o usuário armazenar onde desejar ou imprimir, possibilitando maior controle e ainda geram pontos que acumulam no SCORE que fica acessível as instituições financeiras que podem oferecer produtos como empréstimo, seguros e previdência, dessa forma incentivando o uso da ferramenta para o controle do fluxo de caixa do MEI.
+- Solução disponível em três planos: Basic – Gratuíto, Premium - Pago - Acesso ao nosso E-Learning através de nosso chatbot e Deluxe - Pago - Que além de ter todas as outras funções ainda dá acesso a nossa ferrmanta de contabilidade.
 
 
 ## :interrobang: Motivo
