@@ -3,6 +3,7 @@ import mongoose from "mongoose"
 const connection = async function () {
     mongoose.Promise = global.Promise
     var mongoUrl = process.env.PROD ? String(process.env.MONGODB) : "mongodb://localhost/hackthongr1d"
+    console.log('mongoUrl', mongoUrl)
     try {
         await mongoose.connect(mongoUrl, {
             useNewUrlParser: true,
