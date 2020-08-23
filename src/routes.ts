@@ -4,7 +4,7 @@ import Auth from './middlewares/auth'
 
 /* Controllers */
 import { OpenBanking } from './controllers/OpenBanking'
-import { IniciacaoPagamento } from './controllers/iniciacaoPagamento'
+import { IniciacaoPagamento } from './controllers/IniciacaoPagamento'
 import { BoletoSimples } from './controllers/BoletoSimples'
 
 const routes = Router()
