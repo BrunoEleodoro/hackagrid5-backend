@@ -2,7 +2,7 @@
 
 ___
 
-<div style="center"><img src="https://user-images.githubusercontent.com/56268564/90991665-5e11fb00-e581-11ea-850b-6cb1852ab876.jpeg" /></div>
+<p align="center"><img src="https://user-images.githubusercontent.com/56268564/90991665-5e11fb00-e581-11ea-850b-6cb1852ab876.jpeg" /></p>
 
 <p align="center">
   <a href="LICENSE">
